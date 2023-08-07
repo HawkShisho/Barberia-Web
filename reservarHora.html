@@ -9,11 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Reservas de barberia</h1>
+        <h1>Reservas de Barbería</h1>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="/reservarHora.html">Reservar Hora</a></li>
                 <li><a href="/barberovista.html">Agenda Barbero</a></li>
                 <li><a href="/clientevista.html">Mis Reservas</a></li>
                 <li><a href="">Contacto</a></li>
@@ -21,13 +20,23 @@
         </nav>
     </header>
     <main>
-        <h2>Cortes de pelo</h2>
+        <h2>Reserva tu hora</h2>
         <div>
-            
-        </div>        
+        <form id="formulario">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>            
+            <div>
+                <button type="submit">Reservar</button>
+            </div>
+        </form>
+        </div>
     </main>
     <footer>
         <p>Reservas de Barbería &copy; 2023</p>
     </footer>
 </body>
+</html>
+
 </html>

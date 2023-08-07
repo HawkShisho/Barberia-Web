@@ -8,6 +8,9 @@ function getReservas() {
                 reservasTabla.innerHTML += `
                 <tr>
                     <td>${reserva.cliente}</td>
+                    <td>
+                        <button type="submit" id="${reserva.cliente}">Eliminar</button>
+                    </td>
                 </tr>
                 `
                 reserva.cliente = nombre
@@ -17,3 +20,4 @@ function getReservas() {
         return false;
         }
         getReservas();
+
