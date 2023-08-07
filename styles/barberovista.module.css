@@ -68,4 +68,20 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #666;
 }
